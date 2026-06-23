@@ -1,1 +1,8 @@
-/venv
+/venv/
+__pycache__/
+*.py[cod]
+.mlflow/
+mlruns/
+models/*.pkl
+models/metadata.json
+.pytest_cache/
